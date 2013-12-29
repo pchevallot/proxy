@@ -1,8 +1,10 @@
+#H1
 proxy
 =====
-
+#H2
 Projet LPSIL Génie Logiciel SAR Proxy Web
 
+#H3
 Equipe Projet :
 Brice CASTAGNA
 Colin DASSONVILLE
@@ -25,6 +27,7 @@ OBJECTIFS :
 
 Eviter le couplage entre l'émetteur d'une requête et son récepteur en donnant à plus d'un objet une chance de traiter la requête.
 Chaîner les objets récepteurs et passer la requête tout le long de la chaîne jusqu'à ce qu'un objet la traite.
+
 RAISONS DE L'UTILISER :
 
 Le système doit gérer un requête. La requête implique plusieurs objets pour la traiter.
@@ -45,9 +48,9 @@ La partie cliente appelle la méthode operation() du premier maillon de la chaî
 
 =====
 
-Proxy.java à intégrer dans CherchePageMaillon.java
-ChainProxy.java
-Maillon.java
-CherchePageMaillon.java
-CacheMaillon.java
-Requete.java
+* Proxy.java à intégrer dans CherchePageMaillon.java
+* ChainProxy.java
+* Maillon.java
+* CherchePageMaillon.java
+* CacheMaillon.java
+* Requete.java
