@@ -6,7 +6,7 @@ package com.lpsil.sar.proxy;
 
 /**
  *
- * @author ProgX-73
+ * @author pchevallot
  */
 public class Requete {
     

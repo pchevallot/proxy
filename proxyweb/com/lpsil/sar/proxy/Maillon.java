@@ -6,6 +6,7 @@ package com.lpsil.sar.proxy;
 
 /**
  * Définit l'interface d'un maillon de la chaine.
+ * @author pchevallot
  */
 public abstract class Maillon {
 

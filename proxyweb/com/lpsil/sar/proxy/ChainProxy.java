@@ -6,13 +6,10 @@ package com.lpsil.sar.proxy;
 
 /**
  *
- * @author ProgX-73
+ * @author pchevallot
  */
 public class ChainProxy {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         Requete query = new Requete();

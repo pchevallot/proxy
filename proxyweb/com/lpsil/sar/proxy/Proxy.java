@@ -12,20 +12,15 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author ProgX-73
+ * @author pchevallot
  */
 public class Proxy {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         try {
             System.out.println("*");
             Socket so = new Socket("www.google.com",80);
            
-            
-            
             System.out.println("**");
             InputStreamReader isr = new InputStreamReader(so.getInputStream());
            
