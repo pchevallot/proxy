@@ -4,3 +4,13 @@
 *.jar
 *.war
 *.ear
+
+# ODT Files #
+.~lock.*
+
+# Eclipse files #
+.metadata*
+.classpath
+.project
+.settings*
+.directory
