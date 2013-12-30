@@ -52,3 +52,14 @@ La partie cliente appelle la méthode operation() du premier maillon de la chaî
 * CherchePageMaillon.java
 * CacheMaillon.java
 * Requete.java
+
+* * *
+
+###GIT, GITHUB ET ECLIPSE
+
+* Branche Master : https://github.com/pchevallot/proxy
+* Tutoriels pour eGit et Eclipse - L'excellent blog de Lars Vogel :
+http://www.vogella.com/articles/EclipseGit/article.html
+
+* Tutoriel en français (mais moins complet) :
+http://www.php-geek.fr/configurer-et-utiliser-egit-eclipse.html
