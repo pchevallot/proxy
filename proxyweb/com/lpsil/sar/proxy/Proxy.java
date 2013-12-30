@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * Classe Proxy pour tester la recherche et l'affichage d'une page web
  * @author pchevallot
  */
 public class Proxy {
