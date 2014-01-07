@@ -46,13 +46,13 @@ La partie cliente appelle la méthode operation() du premier maillon de la chaî
 
 * * *
 
-* Proxy.java à intégrer dans CherchePageMaillon.java
-* ChainProxy.java
+* Proxy.java à intégrer dans CherchePageMaillon.java : simule la requête d'un client demandant la page Google
+* ChainProxy.java : lance le serveur Proxy en écoute sur un port spécifié et instanciation d'un thread 'fils'
 * Maillon.java
 * CherchePageMaillon.java
 * CacheMaillon.java
 * Requete.java
-* Application.java : traitements réalisés dans le thread 'fil' instancié dans ChainProxy.java
+* Application.java : traitements réalisés dans le thread 'fils' instancié dans ChainProxy.java
 
 * * *
 
