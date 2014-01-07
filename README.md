@@ -52,6 +52,7 @@ La partie cliente appelle la méthode operation() du premier maillon de la chaî
 * CherchePageMaillon.java
 * CacheMaillon.java
 * Requete.java
+* Application.java : traitements réalisés dans le thread 'fil' instancié dans ChainProxy.java
 
 * * *
 
