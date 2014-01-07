@@ -19,7 +19,7 @@ public class Proxy {
     public static void main(String[] args) {
         try {
             System.out.println("*");
-            Socket so = new Socket("www.google.com",80);
+            Socket so = new Socket("127.0.0.1",8889);
            
             System.out.println("**");
             InputStreamReader isr = new InputStreamReader(so.getInputStream());
@@ -29,11 +29,11 @@ public class Proxy {
            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(so.getOutputStream()));
            
            System.out.println(so.isConnected());
-            System.out.println(so.getInetAddress());
+           // System.out.println(so.getInetAddress());
            String line = "";
-           System.out.println(  so.getLocalAddress());
+           //System.out.println(  so.getLocalAddress());
          
-           bw.write("GET / HTTP/1.1\r\n\r\n"+ "HOST: www.google.com\n");
+           bw.write("GET / HTTP/1.1\r\n"+ "HOST: http://www.google.com\n");
            bw.flush();
           
            while((line = br.readLine())!=null && line.length()!=0)

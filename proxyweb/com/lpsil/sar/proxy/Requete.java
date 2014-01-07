@@ -10,7 +10,16 @@ package com.lpsil.sar.proxy;
  */
 public class Requete {
     
-    private String resultat = "";
+	private String demande = "";
+    public String getDemande() {
+		return demande;
+	}
+
+	public void setDemande(String demande) {
+		this.demande = demande;
+	}
+
+	private String resultat = "";
 
     public String getResultat() {
         return resultat;
